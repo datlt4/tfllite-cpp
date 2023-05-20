@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include/**",
+                "/usr/local/include/**",
+                "/root/tensorflow/tensorflow/lite/**",
+                "/root/tensorflow/**",
+                "./**"
+            ],
+            "browse":
+            {
+                "path":
+                [
+                    "/usr/include/**",
+                    "/usr/local/include/**",
+                    "/root/tensorflow/bazel-bin/tensorflow/lite/**",
+                    "/root/tensorflow/**",
+                    "./**"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "compilerPath": "/usr/bin/g++-9",
+            "cppStandard": "c++20",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
